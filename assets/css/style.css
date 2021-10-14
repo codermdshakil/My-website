@@ -1,0 +1,681 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ .bg-navbar{
+    background:rgba(0, 0, 0, 0.335);
+    
+} 
+.home-slider{
+    margin-top:0px;
+    padding-bottom: 40px;
+    padding-top:50px ;
+}
+.home-section{
+    background: linear-gradient(#2f4f4f, #234325b0),url(../image/banner_02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top center;
+}
+.name-title{
+    color: #49A650;
+}
+.list-style{
+    color: white;
+    font-weight: 600;
+    transition: .2s;
+}
+.list-style:hover{
+  border-bottom: 2px solid #49A650;
+} 
+/* home-slider starts here */
+.home-contents img{
+    transition: .4s;
+}
+.home-contents img:hover{
+    transform: scale(1.02);
+}
+.home-left{
+    position: relative;
+}
+.home-left h1{
+    text-shadow: -5px 1px 6px black;
+    font-size: 60px;
+}
+.home-left h4 {
+    font-size: 23px;
+    color: #ddd;
+}
+.style-icons{
+    position:absolute;
+    width: 500px;
+    cursor: pointer;
+    left: 30%;
+}
+.style-icons a{
+    width: 30px;
+    height:30px;
+    float: left;
+    color:white;
+    background: white;
+    margin:5px;
+    display:grid;
+    align-items: center center;
+    border-radius: 100%;
+    cursor: pointer;
+    text-decoration:none;
+    padding:8px;
+    justify-content: center;
+}
+.style-icons a:nth-child(1){
+    background:#3b5998;
+}
+.style-icons a:nth-child(2){
+    background:#00acee;
+}
+.style-icons a:nth-child(3){
+    background:#e95950;
+}
+.style-icons a:nth-child(4){
+    background:#4078c0;
+}
+.style-icons a:nth-child(5){
+    background:#0e76a8;
+}
+/* home-slider ends here */
+/* about-me-section starts here   */
+.about-title{
+    position: relative;
+    text-align: center;
+}
+.info{
+    color:#49A650;
+}
+.about-title .title::after {
+    position: absolute;
+    content: "";
+    width: 130px;
+    top: 122px;
+    left: 44%;
+    background: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.about-title .title::before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    top: 135px;
+    left:45.5%;
+    background:#49A650;;
+    border: 1px solid #49A650;
+}
+.image-left img {
+    
+    padding-left: 24px;
+    padding-top: 17px;
+    background:  #24b1ca;
+    box-shadow: 1px 1px 13px grey;
+    border-radius: 4px;
+}
+.buttons1{
+    border:1px solid #dc3545e6;
+    background:#dc3545e6;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: .5s;
+    margin-left: 10px;
+    box-shadow: 1px 1px 12px grey;
+}
+.buttons1:hover{
+    color:#dc3545e6;
+    background:white;
+}
+.buttons{
+    border:1px solid #24b1ca;
+    background:#24b1ca;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    transition: .5s;
+    margin-left: 10px;
+    box-shadow: 1px 1px 12px grey;
+}
+.buttons:hover{
+    color:#24b1ca;
+    background:white;
+}
+
+/* about-me-section ends here   */
+/* experience-section  starts here */
+
+.skills-group{
+    margin-bottom: 40px;
+}
+.skills-group ul{
+    list-style: none;
+    text-align: center;
+
+}
+.skills-group li{
+    display: inline-block;
+}
+.skills-group li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 12px;
+    margin: 5px;
+
+}
+
+.e-title{
+    transition: .5s;
+    background: white;
+    color:black;
+    box-shadow: 1px 1px 12px grey;
+    border-radius:25px;
+}
+
+.e-title:hover{
+    background: #1dced9e6;
+    color:black;
+    box-shadow: 1px 1px 12px grey;
+    border-radius:25px;
+}
+
+/* skills starts here  */
+.skills-left{
+    background:#fff;
+    padding:30px;
+
+}
+.skills-left li{
+    list-style: none;
+    margin:20px 0px;
+    overflow: hidden;
+   
+}
+.skills-left li:nth-child(1){
+    margin-top: 0px;
+}
+.skills-left li h3{
+    color: black;
+}
+.bar{
+    height:10px;
+    display: block;
+    border: 1px solid #39B437;
+    border-radius: 5px;
+    box-shadow:inset 1px 2px 5px gray;
+}
+.bar span{
+    height:100%;
+    background:#39B437;
+    float:left;
+}
+.html{
+    position: relative;
+    width: 95%;
+    animation: html 5s;
+}
+.html::after{
+    position: absolute;
+    content: "95%";
+    width: 40px;
+    height: 20px;
+    background: black;
+    color: white;
+    top: -30px;
+    right: -13px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+  
+}
+.html::before{
+    position: absolute;
+    content:"";
+    width:10px;
+    height:10px;
+    top:-14px;
+    right: -0;
+    background:black;
+    border-radius: 2px;
+    border-bottom-left-radius: 15px;
+
+}
+.bootstrap{
+    position: relative;
+    width: 70%;
+    animation: bootstrap 5s;
+}
+.bootstrap::after{
+    position: absolute;
+    content: "70%";
+    width: 40px;
+    height: 20px;
+    background: black;
+    color: white;
+    top: -30px;
+    right: -13px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+  
+}
+.bootstrap::before{
+    position: absolute;
+    content:"";
+    width:10px;
+    height:10px;
+    top:-14px;
+    right: -0;
+    background:black;
+    border-radius: 2px;
+    border-bottom-left-radius: 15px;
+
+}
+.jquary{
+    position: relative;
+    width:40%;
+    animation: jquary 5s;
+}
+.jquary::after{
+    position: absolute;
+    content: "40%";
+    width: 40px;
+    height: 20px;
+    background: black;
+    color: white;
+    top: -30px;
+    right: -13px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+  
+}
+.jquary::before{
+    position: absolute;
+    content:"";
+    width:10px;
+    height:10px;
+    top:-14px;
+    right: -0;
+    background:black;
+    border-radius: 2px;
+    border-bottom-left-radius: 15px;
+
+}
+.css{
+    position: relative;
+    width: 80%;
+    animation:css 5s;
+    
+}
+.css::after{
+    position: absolute;
+    content: "80%";
+    width: 40px;
+    height: 20px;
+    background: black;
+    color: white;
+    top: -30px;
+    right: -13px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+  
+}
+.css::before{
+    position: absolute;
+    content:"";
+    width:10px;
+    height:10px;
+    top:-14px;
+    right: -0;
+    background:black;
+    border-radius: 2px;
+    border-bottom-left-radius: 15px;
+
+}
+.javascript{
+    position: relative;
+    width:50%;
+    animation:javascript 5s;
+}
+.javascript::after{
+    position: absolute;
+    content: "50%";
+    width: 40px;
+    height: 20px;
+    background: black;
+    color: white;
+    top: -30px;
+    right: -13px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.javascript::before{
+    position: absolute;
+    content:"";
+    width:10px;
+    height:10px;
+    top:-14px;
+    right: -0;
+    background:black;
+    border-radius: 2px;
+    border-bottom-left-radius: 15px;
+
+}
+.photoshop{
+    position: relative;
+    width: 65%;
+    animation: photoshop 5s;
+}
+.photoshop::after{
+    position: absolute;
+    content: "65%";
+    width: 40px;
+    height: 20px;
+    background: black;
+    color: white;
+    top: -30px;
+    right: -13px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.photoshop::before{
+    position: absolute;
+    content:"";
+    width:10px;
+    height:10px;
+    top:-14px;
+    right: -0;
+    background:black;
+    border-radius: 2px;
+    border-bottom-left-radius: 15px;
+
+}
+/* keyframs styele starts here */
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes jquary{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:40%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes javascript{
+    0%{
+       width:0%;
+    }
+    100%{
+        width:50%;
+    }
+}
+@keyframes photoshop{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:65%;
+    }
+}
+/* keyframs styele ends here */
+/* skills ends here */
+
+/* profession-section starts here  */
+.p-single{
+    padding: 30px;
+    background: #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px gray;
+    margin-bottom:30px;
+}
+.name-title1{
+    color: #39B437;
+    font-size: 22px ;
+}
+/* profession-section ends here  */
+/* Experience-last-section  starts here */
+.experience-section{
+    background: #ddd;
+    padding: 1% 10%;
+}
+.e-single {
+    position: relative;
+    padding: 30px;
+    background: white;
+ 
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px grey;
+    margin-bottom:80px;
+}
+.e-single:after {
+    position: absolute;
+    content: "";
+    width: 88px;
+    height: 80px;
+    top: -40px;
+    left: 39%;
+    background: #39B437;
+    bottom: 229px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px grey;
+}
+/* Experience-last-section  ends here */
+/* experience-section  ends here */
+
+/* pricing-table-section starts here   */
+.price-table{
+    padding:1% 5%;
+   
+}
+.price-single{
+    padding: 20px;
+    margin-bottom:40px;
+    border: 1px solid #39B437 ;
+    border-radius: 5px;
+}
+.price-title{
+
+    text-align: center;
+    position: relative;
+    margin-bottom:20px;
+}
+.price-title::after {
+    position: absolute;
+    width: 90px;
+    content: "";
+    border: 2px solid #39B437;
+    background: #39B437;
+    top: 60px;
+    left: 33.5%;
+    border-radius: 5px;
+}
+.span-title{
+    font-weight:normal;
+    font-size:20px;
+}
+.price-single li{
+    margin: 10px;
+}
+.price-single li a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+    
+}
+.price-single li a:hover{
+    color: gray;
+}
+.button-s {
+    border: none;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 10px 12px;
+    background: #39B437;
+    color: white;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: .2s;
+    box-shadow: 1px 1px 9px grey;
+}
+.button-s:hover{
+    background:black ;
+}
+/* pricing-table-section ends here */
+
+/* team-section starts here  */
+.team-section{
+    padding:1% 5%;
+}
+.team-title h2{
+    position: relative;
+}
+
+.team-title h2::after {
+    width: 112px;
+    position: absolute;
+    content: "";
+    top: 42px;
+    left: 45%;
+    border-radius: 5px;
+    background: black;
+    border: 2px solid black;
+}
+.team-title h2::before {
+    width: 80px;
+    position: absolute;
+    content: "";
+    top: 54px;
+    left: 46.5%;
+    background: #39B437;
+    border: 1px solid #39B437;
+    border-radius: 5px;
+}
+.single-team{
+    padding:10px;
+    background: #ddd;
+    border-radius: 3px;
+    transition: .3s;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 8px grey;
+}
+.single-team:hover{
+    border: 1px solid #39B437;
+}
+.single-team img{
+    margin-top: 20px;
+    transition: .8s linear;
+    overflow: hidden;
+
+}
+.single-team:hover .image{
+    transform: scale(.9);
+    border: 4px solid #39B437;
+ 
+}
+.single-team h4{
+    margin-top:50px;
+    font-size: 25px;
+
+}
+.single-team h5{
+    font-size :15px;
+    margin-bottom:20px;
+    
+
+}
+/* team-section ends here   */
+/* contact-section starts here */
+.contact-section{
+  padding:1% 8%; 
+}
+.singleBox{
+    background: #ddd;
+    padding: 50px 50px;
+    padding-left: 60px;
+    text-align:center;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+.singleBox2{
+    background: #ddd;
+    padding: 50px 50px;
+    text-align: center;
+    padding-left: 40px;
+    border-radius: 5px;
+}
+.singleBox-icon{
+    color:#42c740;
+}
+.form-control{
+    background: #ddd;
+    border-radius: 25px;
+}
+.massges{
+    border-radius: 10px;
+}
+/* contact-section ends here */
+/* .footer-section starts here  */
+.footer-section{
+    background: #ddd;
+
+}
+.footer-list{
+    padding-left: 30px;
+}
+
+.footer-list li a{
+    text-decoration: none;
+    color: black;
+    padding:10px 12px;
+    transition: .5s;
+}
+
+.footer-list li a:hover{
+    color: #39B437;
+}
+/* .footer-section ends here  */
+
